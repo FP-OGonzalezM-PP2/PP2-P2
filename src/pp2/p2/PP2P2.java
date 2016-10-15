@@ -42,7 +42,7 @@ public class PP2P2 {
         double millas = m * 0.000621371;
         return millas;
     }
-    public static void mostarResultados (double y, double p, double mi, int a){
+    public static void mostrarResultados (double y, double p, double mi, int a){
         System.out.println("Los metros que introdujo son equivalentes a " +y +" yardas, a " +p +" pies y a " +mi +" millas.");
     }
 }
