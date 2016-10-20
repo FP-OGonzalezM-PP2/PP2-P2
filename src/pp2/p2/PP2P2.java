@@ -26,7 +26,7 @@ public class PP2P2 {
     public static int pedirMetros(){
         int metros;
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Escriba el año:");
+        System.out.println("Escriba los metros que quiere convertir ");
         metros = entrada.nextInt();
         return metros;
     }
